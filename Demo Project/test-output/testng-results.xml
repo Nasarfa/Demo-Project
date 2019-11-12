@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74193" started-at="2019-11-11T10:15:56 IST" finished-at="2019-11-11T10:17:10 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74193" started-at="2019-11-11T10:15:56 IST" finished-at="2019-11-11T10:17:10 IST">
+      <class name="logintestcase.Login">
+        <test-method status="PASS" signature="Loginwebsite(java.lang.String, java.lang.String)[pri:0, instance:logintestcase.Login@3108bc]" name="Loginwebsite" duration-ms="22999" started-at="2019-11-11T10:15:56 IST" data-provider="logindata" finished-at="2019-11-11T10:16:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginwebsite -->
+        <test-method status="PASS" signature="Loginwebsite(java.lang.String, java.lang.String)[pri:0, instance:logintestcase.Login@3108bc]" name="Loginwebsite" duration-ms="27758" started-at="2019-11-11T10:16:19 IST" data-provider="logindata" finished-at="2019-11-11T10:16:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginwebsite -->
+        <test-method status="PASS" signature="Loginwebsite(java.lang.String, java.lang.String)[pri:0, instance:logintestcase.Login@3108bc]" name="Loginwebsite" duration-ms="11612" started-at="2019-11-11T10:16:46 IST" data-provider="logindata" finished-at="2019-11-11T10:16:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginwebsite -->
+        <test-method status="PASS" signature="Loginwebsite(java.lang.String, java.lang.String)[pri:0, instance:logintestcase.Login@3108bc]" name="Loginwebsite" duration-ms="11738" started-at="2019-11-11T10:16:58 IST" data-provider="logindata" finished-at="2019-11-11T10:17:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginwebsite -->
+      </class> <!-- logintestcase.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

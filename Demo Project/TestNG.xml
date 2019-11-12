@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Login Test Cases" verbose="2">
+	<test name="Login test case for Website">
+		<classes>
+			<class name="logintestcase.Login"></class>
+		</classes>
+	</test>
+</suite>
+
+
+
+<!-- <!-- <groups>
+<run>
+<include name="Vivo"></include>
+<include name="Apple"></include>
+</run>
+</groups> --> -->
+
+<!-- <!-- <class name= "testNG.Dependency"></class>
+<class name = "testNG.SampleprogramTestNG"></class>
+<class name = "testNG.SkipTestNG"></class>
+<class name = "testNG.Testsuit"></class>
+<class name = "testNG.GroupingExamples"></class> --> -->
+
+
+<parameter name="Name" value="Nithya"></parameter>
+
+
+<suite name = "Suit Test" verbose="3" parallel = "methods" thread-count = "2">
+
+
+<class name = "testNG.SampleprogramTestNG"></class>
+<class name = "testNG.SkipTestNG"></class>
+<class name = "testNG.Testsuit"></class>
+<class name = "testNG.GroupingExamples"></class>
+<class name = "testNG.ParalleltestingExample"></class>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Login Test Cases" verbose="2">
+	<test name="CorrectUserName">
+		<parameter name="username" value="Admin"></parameter>
+		<parameter name="password" value="admin1"></parameter>
+		<classes>
+			<class name="logintestcase.CorrectUserName"></class>
+		</classes>
+	</test>
+	<test name="CorrectPassword">
+		<parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="admin123"></parameter>
+		<classes>
+			<class name="logintestcase.CorrectPassword"></class>
+		</classes>
+	</test>
+	<test name="BothIncorrect">
+		<parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="Admin12"></parameter>
+		<classes>
+			<class name="logintestcase.BothIncorrect"></class>
+		</classes>
+	</test>
+	<test name="BothCorrect">
+		<parameter name="username" value="Admin"></parameter>
+		<parameter name="password" value="admin123"></parameter>
+		<classes>
+			<class name="logintestcase.BothCorrect"></class>
+		</classes>
+	</test>
+</suite>
