@@ -30,6 +30,5 @@ String [][] data =	{{"Admin","admin1"},
 		password.sendKeys("Pwrd");
 		WebElement login = driver.findElement(By.id("btnLogin"));
 		login.click();
-		driver.quit();
-		}
+				}
 }
